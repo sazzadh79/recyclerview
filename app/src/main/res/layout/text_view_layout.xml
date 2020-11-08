@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--This textview is responsible for  each item in the recyclerview-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="12dp"
+    android:padding="12dp"
+    android:id="@+id/parent_main">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="User_ID"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:id="@+id/User_ID">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ID"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginTop="6sp"
+        android:id="@+id/identity">
+
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Title"
+        android:textColor="#000"
+        android:textStyle="normal"
+        android:textSize="18sp"
+        android:layout_marginTop="6sp"
+        android:id="@+id/title">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Body!"
+        android:textStyle="italic"
+        android:textSize="18sp"
+        android:layout_marginTop="6sp"
+        android:id="@+id/body">
+
+    </TextView>
+</LinearLayout>
